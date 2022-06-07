@@ -9,3 +9,13 @@ public class PolyDetail02 {
         System.out.println(sub.count);//20
     }
 }
+
+//父类
+class Base {
+    int count = 10; //属性
+}
+
+//子类
+class Sub extends Base{
+    int count = 20;//属性
+}

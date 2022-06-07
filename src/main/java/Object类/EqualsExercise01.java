@@ -56,26 +56,8 @@ class Person {
             //进行 向下转型, 因为我们需要得到 obj 的 各个属性
             Person p = (Person) obj;
             return this.name.equals(p.name) && this.age == p.age && this.gender == p.gender;
-
         }
         //如果不是 Person, 则直接返回 false
         return false;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

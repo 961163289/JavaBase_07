@@ -20,6 +20,12 @@ public class Encapsulation01 {
     }
 }
 
+/*
+那么在 java 中如何实现这种类似的控制呢?
+请大家看一个小程序(com.hspedu.encap: Encapsulation01.java),
+不能随便查看人的年龄,工资等隐私,并对设置的年龄进行合理的验证。年龄合理就设置,
+否则给默认年龄, 必须在 1-120,  年龄, 工资不能直接查看, name 的长度在 2-6 字符 之间
+*/
 class Person {
     public String name; //name 公开
     private int age;    //age 私有化

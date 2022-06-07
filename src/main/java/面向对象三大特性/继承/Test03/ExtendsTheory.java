@@ -16,3 +16,24 @@ public class ExtendsTheory {
         System.out.println(son.hobby);//返回的就是旅游
     }
 }
+
+//爷类
+class GrandPa {
+    String name = "大头爷爷";
+    String hobby = "旅游";
+}
+
+//父类
+class Father extends GrandPa {
+    String name = "大头爸爸";
+    private int age = 39;
+
+    public int getAge() {
+        return age;
+    }
+}
+
+//子类
+class Son extends Father {
+    String name = "大头儿子";
+}

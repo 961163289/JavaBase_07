@@ -2,7 +2,6 @@ package 方法重写.OverrideExercise;
 
 //编写一个 Person 类，包括属性/private（name、age），构造器、方法 say(返回自我介绍的字符串）
 public class Person {
-
     private String name;
     private int age;
 

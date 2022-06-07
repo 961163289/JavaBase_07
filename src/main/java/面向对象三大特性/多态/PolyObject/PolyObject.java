@@ -6,10 +6,10 @@ public class PolyObject {
         //animal 编译类型就是 Animal, 运行类型 Dog
         Animal animal = new Dog();
         //因为运行时,执行到该行时,animal 运行类型是 Dog,所以 cry 就是 Dog 的 cry
-        animal.cry();//小狗汪汪叫
+        animal.cry();//Dog cry() 小狗汪汪叫...
 
         //animal 编译类型就是 Animal, 运行类型 Cat
         animal = new Cat();
-        animal.cry();//小猫喵喵叫
+        animal.cry();//Cat cry() 小猫喵喵叫...
     }
 }

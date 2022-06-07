@@ -25,6 +25,6 @@ public class PolyDetail01 {
         Cat cat = (Cat) animal;
         cat.catchMouse();
         //2) 要求父类的引用必须指向的是当前目标类型的对象
-        Dog dog = (Dog) animal; //ok
+        //Dog dog = (Dog) animal; //错误
     }
 }
