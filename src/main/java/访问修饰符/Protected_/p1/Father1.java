@@ -1,4 +1,4 @@
-package 访问修饰符2.p1;
+package 访问修饰符.Protected_.p1;
 
 public class Father1 {
     protected void f(){

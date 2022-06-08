@@ -1,6 +1,6 @@
-package 访问修饰符2.p1;
+package 访问修饰符.Protected_.p1;
 
-import 访问修饰符2.p2.Son2;
+import 访问修饰符.Protected_.p2.Son2;
 
 public class Test {
     public static void main(String[] args) throws Exception {
